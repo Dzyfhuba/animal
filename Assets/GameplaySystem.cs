@@ -41,9 +41,8 @@ public class GameplaySystem : MonoBehaviour
         if (HB1Appear && HB2Appear)
         {
             StartCoroutine(delay(3));
-            HB1.HealthDecrease(20);
-            Debug.Log("HB1 decrease");
-            Debug.Log("decrease:" + HB1.slider.value);
+            HB2.HealthDecrease(20);
+            Debug.Log("HB2 decrease\ndecrease:" + HB2.slider.value);
         }
     }
     private IEnumerator delay(int d)
