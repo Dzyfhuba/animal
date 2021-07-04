@@ -36,17 +36,38 @@ public class GameplaySystem : MonoBehaviour
     void Update()
     {
 
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            damage(20);
+        }
+
+    }
 
 
+    public void Fight(int damageTotal)
+    {
+        damage(damageTotal);
+    }
+
+    private void damage(int dmg)
+    {
         if (HB1Appear && HB2Appear)
         {
-            StartCoroutine(delay(3));
-            HB2.HealthDecrease(20);
+            // StartCoroutine(delay(3));
+            HB2.HealthDecrease(dmg);
             Debug.Log("HB2 decrease\ndecrease:" + HB2.slider.value);
         }
-    }
-    private IEnumerator delay(int d)
-    {
-        yield return new WaitForSecondsRealtime(d);
+        else if (HB3Appear && HB2Appear)
+        {
+            // StartCoroutine(delay(3));
+            HB3.HealthDecrease(dmg);
+            Debug.Log("HB3 decrease\ndecrease:" + HB3.slider.value);
+        }
+        else if (HB1Appear && HB1Appear)
+        {
+            // StartCoroutine(delay(3));
+            HB2.HealthDecrease(dmg);
+            Debug.Log("HB2 decrease\ndecrease:" + HB1.slider.value);
+        }
     }
 }
