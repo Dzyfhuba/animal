@@ -71,7 +71,7 @@ public class GameplaySystem : MonoBehaviour
             // StartCoroutine(delay(3));
             HB2.HealthDecrease(dmg);
             soundpuppydmg.Play();
-            bloodtikus.Play();
+            bloodpuppy.Play();
             Debug.Log("HB2 decrease\ndecrease:" + HB2.slider.value);
         }
         else if (HB3Appear && HB2Appear)
