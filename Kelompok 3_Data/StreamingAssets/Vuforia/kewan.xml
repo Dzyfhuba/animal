@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="tekus" size="0.500000 0.601512" />
+    <ImageTarget name="koceng" size="0.500000 0.643777" />
+    <ImageTarget name="4852_sumber-ilustrasi-arsip-bobo" size="0.500000 0.512821" />
+  </Tracking>
+</QCARConfig>

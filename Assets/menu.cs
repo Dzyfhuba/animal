@@ -13,7 +13,7 @@ public class menu : MonoBehaviour
        Application.Quit();
     }
     public void Scene1() {  
-        SceneManager.LoadScene("gameplay");  
+        SceneManager.LoadScene("gameplay1");  
     }  
     public void Scene2() {  
         SceneManager.LoadScene(0);

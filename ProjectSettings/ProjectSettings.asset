@@ -145,7 +145,8 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Android: com.DefaultCompany.Kelompok3
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -321,7 +322,7 @@ PlayerSettings:
       m_Kind: 0
       m_SubKind: 
     - m_Textures:
-      - {fileID: 2800000, guid: d1713bcd64261ff4590af18732268667, type: 3}
+      - {fileID: 2800000, guid: 7809b1076a675b046ab0bcae7a86abcf, type: 3}
       - {fileID: 2800000, guid: d1713bcd64261ff4590af18732268667, type: 3}
       m_Width: 432
       m_Height: 432
